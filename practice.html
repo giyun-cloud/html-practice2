@@ -8,10 +8,17 @@
   <link rel="stylesheet" href="./css/sub.css" />
 </head>
 <body>
-  <form action="./log" autocomplete="on" method="POST" novalidate target="_blank">
-    <input type="email" name="email" placeholder="Please enter your email" />
-    <input type="password" name="email" placeholder="Please enter your password" />
-    <button type="submit" class="btn">Login</button>
-  </form>
+  <input type="text" list="datalist1" />
+  <datalist id="datalist1">
+    <option>운동목록</option>
+    <optgroup label="상체운동">
+      <option>턱걸이</option>
+      <option>팔굽혀펴기</option>
+    </optgroup>
+    <optgroup label="하체운동">
+      <option>스쿼트</option>
+      <option>런지</option>
+    </optgroup>
+  </datalist>
 </body>
 </html>
