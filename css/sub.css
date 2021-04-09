@@ -1,0 +1,35 @@
+form {
+  padding: 30px;
+  border: 2px solid #555;
+  width: 300px;
+  margin: 20px auto 0;
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px 3px rgba(0, 0, 0, .2);
+}
+
+input {
+  width: 220px;
+  padding: 5px;
+  box-sizing: border-box;
+  border-radius: 3px;
+  border: 1px solid #888;
+  display: block;
+  margin: 0 auto 3px;
+}
+
+.btn {
+  border : 2px solid #333;
+  color: #333;
+  border-radius: 3px;
+  display: block;
+  width: 100px;
+  padding: 5px 0;
+  transition: .4s;
+  text-decoration: none;
+  text-align: center;
+  margin: 10px auto 0;
+}
+.btn:hover {
+  background-color: #333;
+  color: #fff;
+}
