@@ -1,35 +1,30 @@
-form {
-  padding: 30px;
-  border: 2px solid #555;
-  width: 300px;
-  margin: 20px auto 0;
-  border-radius: 5px;
-  box-shadow: 1px 1px 10px 3px rgba(0, 0, 0, .2);
-}
-
-input {
-  width: 220px;
-  padding: 5px;
+.hover-me {
   box-sizing: border-box;
-  border-radius: 3px;
-  border: 1px solid #888;
-  display: block;
-  margin: 0 auto 3px;
-}
-
-.btn {
-  border : 2px solid #333;
-  color: #333;
-  border-radius: 3px;
-  display: block;
   width: 100px;
-  padding: 5px 0;
-  transition: .4s;
-  text-decoration: none;
+  height: auto;
+  padding: 10px ;
   text-align: center;
-  margin: 10px auto 0;
+  margin: auto;
+  position: relative;
+
 }
-.btn:hover {
-  background-color: #333;
-  color: #fff;
+.hover-me::before {
+  content: '';
+  background-color: #ccc;
+  transition: transform .3s ease;
+  display: block;
+  position: absolute;
+  top: 3px; right: 0; bottom: 0; left: 0;
+  z-index: -1;
+  height: inherit;
+  width: inherit;
+  border-radius: 5px;
+}
+.hover-me:hover::before {
+  transform: scaleX(1);
+  transform-origin: top right;
+}
+.hover-me::before {
+  transform: scaleX(0);
+  transform-origin: top left;
 }
