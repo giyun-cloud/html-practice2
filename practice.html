@@ -5,10 +5,24 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Document</title>
-  <link rel="stylesheet" href="./css/sub.css" />
+  <link rel="stylesheet" href="./css/csspractice.css" />
   <script type="module" src="./main.js"></script>
 </head>
 <body>
-  <div class="hover-me">Hover me</div>
+  <div class="practice">
+    <div>1</div>
+    <div>2</div>
+    <div>3
+      <p>3-1</p>
+      <div>3-2
+        <ul>
+          <li>3-2-1</li>
+          <li>3-2-2</li>
+          <!-- ul이 첮번째 형제이기에 ul에 넣어진 스타일이 2번째 li에게도 inherit 됨 -->
+        </ul>
+      </div>
+      <p>3-3</p>
+    </div>
+  </div>
 </body>
 </html>

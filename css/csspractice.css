@@ -1,0 +1,12 @@
+.practice *:first-child {
+  color: goldenrod;
+  font-size: 18px;
+}
+/* .practice :first-child {
+  color: goldenrod;
+  font-size: 18px;
+}
+.practice :nth-child(1) {
+  color: goldenrod;
+  font-size: 18px;
+} */
