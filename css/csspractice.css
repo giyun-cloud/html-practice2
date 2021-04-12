@@ -1,12 +1,58 @@
-.practice *:first-child {
-  color: goldenrod;
-  font-size: 18px;
-}
-/* .practice :first-child {
-  color: goldenrod;
-  font-size: 18px;
-}
-.practice :nth-child(1) {
+/* .practice *:first-child {
   color: goldenrod;
   font-size: 18px;
 } */
+
+/* .practice :first-child {
+  color: goldenrod;
+  font-size: 18px;
+} */
+
+.practice :nth-child(1) {
+  color: goldenrod;
+  font-size: 18px;
+}
+.border-box {
+  display: flex;
+  width: 500px;
+  flex-wrap: wrap;
+}
+div .impor{
+  color: aqua !important;
+}
+div b{
+  color: red !important;
+}
+div.border-style {
+  width: 100px;
+  height: 100px;
+  background-color: beige;
+  margin: 10px;
+  box-sizing: border-box;
+  border-width: 10px;
+  border-color: gold;
+}
+div.border-style:nth-child(1) {
+  border-style: solid;
+}
+div.border-style:nth-child(2) {
+  border-style: dotted;
+}
+div.border-style:nth-child(3) {
+  border-style: dashed;
+}
+div.border-style:nth-child(4) {
+  border-style:double;
+}
+div.border-style:nth-child(5) {
+  border-style:groove;
+}
+div.border-style:nth-child(6) {
+  border-style:inset;
+}
+div.border-style:nth-child(7) {
+  border-style: ridge;
+}
+div.border-style:nth-child(8) {
+  border-style: outset ;
+}
